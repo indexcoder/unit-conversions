@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Indexcoder\\PerformUnitConversionsInPHP\\": "src"
+            "Indexcoder\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Indexcoder\\PerformUnitConversionsInPHP\\Tests\\": "tests"
+            "Indexcoder\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
