@@ -4,7 +4,8 @@ namespace Indexcoder\PerformUnitConversionsInPHP;
 
 class PerformUnitConversionsInPHPClass
 {
-    public function test() {
+    public function test()
+    {
         echo 'ffff';
     }
 }
