@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Indexcoder\PerformUnitConversionsInPHP\Tests;
 
 use PHPUnit\Framework\TestCase;
 

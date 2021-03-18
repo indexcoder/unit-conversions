@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "indexcoder/unit-conversions",
+    "description": "Perform unit conversions in PHP",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "indexcoder",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/indexcoder/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Nurik",
+            "email": "programmer.kg@mail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Indexcoder\\PerformUnitConversionsInPHP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Indexcoder\\PerformUnitConversionsInPHP\\Tests\\": "tests"
         }
     },
     "scripts": {
