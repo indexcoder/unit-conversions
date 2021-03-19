@@ -2,20 +2,22 @@
 
 namespace Indexcoder\UnitConversions;
 
-class Weight {
-
+class Weight
+{
     private float $kilograms;
 
-    public static function fromKilograms(float $kilograms): self {
+    public static function fromKilograms(float $kilograms): self
+    {
         return new static($kilograms);
     }
 
-    public function __construct(float $kilograms) {
+    public function __construct(float $kilograms)
+    {
         $this->kilograms = $kilograms;
     }
 
-    public function toLbs(): float {
+    public function toLbs(): float
+    {
         return $this->kilograms * 2.204623;
     }
-
 }
